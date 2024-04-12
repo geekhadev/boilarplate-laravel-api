@@ -34,6 +34,8 @@ Para ejecutar los servicios:
 docker-compose up -d
 ```
 
+- **Tests postman:** se incluye una [colección de Postman](https://github.com/geekhadev/boilerplate-laravel-api/blob/main/boilerplate-laravel-api.postman_collection.json) con las peticiones existentes en la API. Puedes descargarla e importarla en tu cliente de Postman para probar la API.
+
 ### Próximamente
 
 - **Tests:** se incluirán pruebas unitarias y de integración para garantizar la calidad del código.
