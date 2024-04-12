@@ -4,14 +4,21 @@ Este repositorio contiene un boilerplate para la creación de APIs con Laravel, 
 
 ## 🚀 Características
 
-- **GitIgnore:** se incluye un archivo `.gitignore` preconfigurado para ignorar los archivos y carpetas comunes, de diferentes sistemas operativos y editores.
-- **EditorConfig:** se incluye un archivo `.editorconfig` preconfigurado para mantener la preferencia de tabulación del código.
-- **CommitLint:** se incluye un archivo de configuración de CommitLint para mantener un estilo de mensaje de commit consistente.
+**GitIgnore:** se incluye un archivo `.gitignore` preconfigurado para ignorar los archivos y carpetas comunes, de diferentes sistemas operativos y editores.
+
+**EditorConfig:** se incluye un archivo `.editorconfig` preconfigurado para mantener la preferencia de tabulación del código.
+
+**CommitLint:** se incluye un archivo de configuración de CommitLint para mantener un estilo de mensaje de commit consistente.
+
+**Husky:** se incluye un archivo de configuración de Husky para ejecutar scripts de pre-commit y pre-push.
+
+- el pre-commit ejecuta: [linter]
+- el pre-push ejecuta: []
+
+**Linter:** usamos [Pint](https://laravel.com/docs/11.x/pint) para mantener un estilo de código consistente. Se incluye el comando `npm run lint` para ejecutar el linter y se agrega el comando a `Husky` para que se ejecuten los scripts de pre-commit. El linter detecta errores de estilo y de sintaxis en el código.
 
 ### Próximamente
 
-- **Husky:** se incluirá un archivo de configuración de Husky para ejecutar scripts de pre-commit y pre-push.
-- **Linter:** usamos [Pint](https://laravel.com/docs/11.x/pint) para mantener un estilo de código consistente.
 - **Tests:** se incluirán pruebas unitarias y de integración para garantizar la calidad del código.
 - **Documentación:** se incluirá Swagger para documentar la API y facilitar su uso.
 - **Docker:** se incluirá un archivo de configuración de Docker para facilitar la ejecución del proyecto en diferentes entornos.
@@ -33,6 +40,16 @@ Este repositorio contiene un boilerplate para la creación de APIs con Laravel, 
 ## 📘 Uso
 
 Una vez configurado, puedes comenzar a desarrollar tu API sobre esta base. Utiliza las rutas predefinidas para crear nuevos endpoints y expandir la funcionalidad según tus requisitos.
+
+### Commits y PRs
+
+Por favor, sigue las convenciones de commit y PRs para mantener un historial de cambios limpio y fácil de leer.
+
+#### Commits
+
+Los mensajes de commit deben seguir la convención descrita [en este archivo de configuración](https://github.com/geekhadev/boilerplate-laravel-api/blob/main/commitlint.config.cjs) de [CommitLint](https://commitlint.js.org/guides/getting-started.html). Por favor mantén los mensajes de commit claros y concisos. No importa si son en inglés o español, pero deben ser consistentes.
+
+Ten encuenta que hemos agregado `husky` para ejecutar una validación de los mensajes de commit antes de realizar un commit. Si el mensaje no cumple con la convención, no se permitirá realizar el commit y te mostrará un mensaje de error.
 
 ## ✅ Contribución
 
