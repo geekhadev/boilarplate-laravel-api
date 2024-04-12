@@ -15,13 +15,29 @@ Este repositorio contiene un boilerplate para la creación de APIs con Laravel, 
 - el pre-commit ejecuta: [linter]
 - el pre-push ejecuta: []
 
-**Linter:** usamos [Pint](https://laravel.com/docs/11.x/pint) para mantener un estilo de código consistente. Se incluye el comando `npm run lint` para ejecutar el linter y se agrega el comando a `Husky` para que se ejecuten los scripts de pre-commit. El linter detecta errores de estilo y de sintaxis en el código.
+**Linter:** usamos [Pint](https://laravel.com/docs/11.x/pint) para mantener un estilo de código consistente. El comando se agrega a los scripts de pre-commit. El linter detecta errores de estilo y de sintaxis en el código.
+
+Para ejecutar el linter:
+
+```bash
+npm run lint
+```
+
+**Docker:** se incluye un `docker-compose.yml` preconfigurado para ejecutar los servicios necesarios para el proyecto.
+
+- Postgres: base de datos
+- Redis: cache y cola
+
+Para ejecutar los servicios:
+
+```bash
+docker-compose up -d
+```
 
 ### Próximamente
 
 - **Tests:** se incluirán pruebas unitarias y de integración para garantizar la calidad del código.
 - **Documentación:** se incluirá Swagger para documentar la API y facilitar su uso.
-- **Docker:** se incluirá un archivo de configuración de Docker para facilitar la ejecución del proyecto en diferentes entornos.
 - **CI/CD:** se incluirá un archivo de configuración de GitHub Actions para automatizar las pruebas y la implementación.
 - **Postman:** se incluirá una colección de Postman para realizar pruebas manuales de la API.
 - **Websockets:** configuración de Laravel Reverb para implementación de websockets.
