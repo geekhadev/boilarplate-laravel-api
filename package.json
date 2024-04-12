@@ -4,7 +4,8 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "prepare": "husky"
+        "prepare": "husky",
+        "lint": "./vendor/bin/pint"
     },
     "devDependencies": {
         "@commitlint/cli": "^19.2.1",
