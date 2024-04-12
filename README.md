@@ -6,6 +6,7 @@ Este repositorio contiene un boilerplate para la creación de APIs con Laravel, 
 
 - **GitIgnore:** se incluye un archivo `.gitignore` preconfigurado para ignorar los archivos y carpetas comunes, de diferentes sistemas operativos y editores.
 - **EditorConfig:** se incluye un archivo `.editorconfig` preconfigurado para mantener la preferencia de tabulación del código.
+- **CommitLint:** se incluye un archivo de configuración de CommitLint para mantener un estilo de mensaje de commit consistente.
 
 ### Próximamente
 
