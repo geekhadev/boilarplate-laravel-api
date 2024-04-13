@@ -16,7 +16,6 @@ npm-debug.log
 yarn-error.log
 /.fleet
 /.idea
-/.vscode
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,windows,linux,laravel,phpunit,phpstorm,visualstudiocode,intellij
