@@ -34,6 +34,8 @@ Para ejecutar los servicios:
 docker-compose up -d
 ```
 
+- **Telescope:** se incluye Laravel Telescope para depurar y analizar las solicitudes de la aplicación. Puedes acceder a Telescope en la ruta `/telescope`. Se recomienda deshabilitar Telescope en producción cambiando la variable de entorno `TELESCOPE_ENABLED` a `false`.
+
 - **Tests postman:** se incluye una [colección de Postman](https://github.com/geekhadev/boilerplate-laravel-api/blob/main/boilerplate-laravel-api.postman_collection.json) con las peticiones existentes en la API. Puedes descargarla e importarla en tu cliente de Postman para probar la API.
 
 ### Próximamente
