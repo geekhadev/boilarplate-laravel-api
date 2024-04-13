@@ -75,6 +75,18 @@ En el directorio `docs/routes` encontrarás una serie de archivos Markdown con i
 
 [Módulo de autenticación](https://github.com/geekhadev/boilerplate-laravel-api/blob/main/docs/routes/auth.md)
 
+### Base de datos
+
+Se usan las siguientes bases de datos:
+
+- **database:** para almacenar los datos de la aplicación.
+- **testing:** para almacenar los datos de las pruebas.
+
+Se usan los siguientes esquemas:
+
+- **public:** para las tablas por defecto de Laravel.
+- **tracking:** para las tablas de seguimiento de la aplicación.
+
 ## 🧪 Tests
 
 En el directorio `docs/tests` encontrarás una serie de archivos Markdown con información sobre los tests creados para la API. Puedes consultarlos para obtener más detalles sobre los tests y la funcionalidad de cada módulo.
