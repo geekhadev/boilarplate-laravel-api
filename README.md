@@ -69,6 +69,32 @@ Los mensajes de commit deben seguir la convención descrita [en este archivo de 
 
 Ten encuenta que hemos agregado `husky` para ejecutar una validación de los mensajes de commit antes de realizar un commit. Si el mensaje no cumple con la convención, no se permitirá realizar el commit y te mostrará un mensaje de error.
 
+## 📚 Documentación
+
+En el directorio `docs/routes` encontrarás una serie de archivos Markdown con información sobre los diferentes módulos de la API. Puedes consultarlos para obtener más detalles sobre los endpoints y la funcionalidad de cada módulo.
+
+[Módulo de autenticación](https://github.com/geekhadev/boilerplate-laravel-api/blob/main/docs/routes/auth.md)
+
+## 🧪 Tests
+
+En el directorio `docs/tests` encontrarás una serie de archivos Markdown con información sobre los tests creados para la API. Puedes consultarlos para obtener más detalles sobre los tests y la funcionalidad de cada módulo.
+
+Para ejecutar los tests, utiliza el siguiente comando:
+
+```bash
+php artisan test
+```
+
+Para ejecutar el test de cobertura, utiliza el siguiente comando:
+
+```bash
+npm run test:coverage 
+```
+
+> Para poder hacer un push se necesita un mínimo del 90% de cobertura de código.
+
+[Módulo de autenticación](https://github.com/geekhadev/boilerplate-laravel-api/blob/main/docs/tests/auth.md)
+
 ## ✅ Contribución
 
 ¡Las contribuciones son bienvenidas! Si deseas mejorar este proyecto, por favor, envía un pull request. Asegúrate de seguir las guías de contribución y de código.
