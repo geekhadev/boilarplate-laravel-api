@@ -10,7 +10,7 @@ return new class extends Migration
 
     public function up(): void
     {
-        if (!Schema::hasTable(self::TABLE_NAME)) {
+        if (! Schema::hasTable(self::TABLE_NAME)) {
             Schema::create(self::TABLE_NAME, function (Blueprint $table) {
                 $table->id();
                 $table->string('name');

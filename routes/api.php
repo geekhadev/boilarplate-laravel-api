@@ -22,3 +22,5 @@ Route::middleware('auth:sanctum')->group(function () {
 
     Route::get('/logout', LogoutController::class);
 });
+
+require __DIR__.'/tracking/devices.php';

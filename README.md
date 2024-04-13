@@ -71,11 +71,14 @@ Ten encuenta que hemos agregado `husky` para ejecutar una validación de los men
 
 ## 📚 Documentación
 
+### 🔗 Rutas
+
 En el directorio `docs/routes` encontrarás una serie de archivos Markdown con información sobre los diferentes módulos de la API. Puedes consultarlos para obtener más detalles sobre los endpoints y la funcionalidad de cada módulo.
 
 [Módulo de autenticación](https://github.com/geekhadev/boilerplate-laravel-api/blob/main/docs/routes/auth.md)
+[Sistema de seguimiento - Módulo de dispositivos](https://github.com/geekhadev/boilerplate-laravel-api/blob/main/docs/routes/tracking/devices.md)
 
-### Base de datos
+### 🗂️ Base de datos
 
 Se usan las siguientes bases de datos:
 
@@ -87,7 +90,7 @@ Se usan los siguientes esquemas:
 - **public:** para las tablas por defecto de Laravel.
 - **tracking:** para las tablas de seguimiento de la aplicación.
 
-## 🧪 Tests
+### 🧪 Tests
 
 En el directorio `docs/tests` encontrarás una serie de archivos Markdown con información sobre los tests creados para la API. Puedes consultarlos para obtener más detalles sobre los tests y la funcionalidad de cada módulo.
 
