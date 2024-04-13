@@ -4,18 +4,27 @@ Tests NO implementados ❌
 Tests implementados y satisfactorios 🟢
 Tests implementados pero fallidos 🔴
 
-#### Tests Login
+Directorio raíz: /tests/Feature/Auth
 
-| status | title | description | file |
+#### Tests Login [LoginTest.php]
+
+| Estado | Título | Descripción |
+| --- | --- | --- |
+| 🟢 | Login con credenciales válidas | Iniciar sesión con credenciales válidas |
+| 🟢 | Login con credenciales inválidas | Iniciar sesión con credenciales inválidas |
+| 🟢 | Login con credenciales vacías | Iniciar sesión con credenciales vacías |
+
+#### Tests Register [RegisterTest.php]
+
+| Estado | Título | Descripción |
 | --- | --- | --- | --- |
-| 🟢 | Login con credenciales válidas | Iniciar sesión con credenciales válidas | /tests/Feature/Auth/LoginTest.php |
-| 🟢 | Login con credenciales inválidas | Iniciar sesión con credenciales inválidas | /tests/Feature/Auth/LoginTest.php |
-| 🟢 | Login con credenciales vacías | Iniciar sesión con credenciales vacías | /tests/Feature/Auth/LoginTest.php |
+| 🟢 | Registro con datos válidos | Registrar un nuevo usuario con datos válidos |
+| 🟢 | Registro con email duplicado | Registrar un nuevo usuario con un email duplicado |
+| 🟢 | Registro con datos vacíos | Registrar un nuevo usuario con datos vacíos |
 
-#### Tests Register
+#### Tests Logout [LogoutTest.php]
 
-| status | title | description | file |
+| Estado | Título | Descripción |
 | --- | --- | --- | --- |
-| 🟢 | Registro con datos válidos | Registrar un nuevo usuario con datos válidos | /tests/Feature/Auth/RegisterTest.php |
-| 🟢 | Registro con email duplicado | Registrar un nuevo usuario con un email duplicado | /tests/Feature/Auth/RegisterTest.php |
-| 🟢 | Registro con datos vacíos | Registrar un nuevo usuario con datos vacíos | /tests/Feature/Auth/RegisterTest.php |
+| 🟢 | Logout con token inválido | Debería devolver un status 401 si el token es inválido |
+| 🟢 | Logout con token válido | Debería un 204 y cerrar sesión con un token válido |
